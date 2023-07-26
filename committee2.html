@@ -186,47 +186,75 @@ box-shadow: 2px 2px black;
 
       
    
-      @media only screen and (max-width:746px)
-      {
-           h1,h3,ul,p{
-            margin-left:100px;
-            font-size:20px;
-           }
-
-         }
-
-         @media only screen and (max-width:410px)
-      {
-           .img img{
-            height: 200px;
-            width: 300px;
-           }
-
-         }
-
-         .content-main
-         {
-                 display: flex;
-                 flex-direction: column;
-                 justify-content: center;
-                 align-items: center;
-         }
-
-
-         @media only screen and (max-width:747px)
-      {
-           .content-main
-           {
-                margin-left:-66px
-           }
-
-           
-         .content-main img{
-             margin-left:56px;
-         };
+      @media only screen and (max-width: 746px) {
+        h1,
+        h3,
+        ul,
+        p {
+          margin-left: 100px;
+          font-size: 20px;
+        }
       }
 
-      
+      @media only screen and (max-width: 410px) {
+        .img img {
+          height: 200px;
+          width: 300px;
+        }
+
+        .img{
+          height: 211px;
+    width: 340px;
+        }
+      }
+
+
+      @media only screen and (max-width: 410px) {
+        .img img {
+          height: 200px;
+          width: 300px;
+        }
+
+        .img{
+          height: 211px;
+    width: 340px;
+        }
+      }
+      @media only screen and (max-width: 415px) {
+        .img img {
+          height: 197px;
+          width: 277px;
+        }
+
+        .img{
+          height: 210px;
+    width: 290px;
+    margin-left:12px;
+        }
+      }
+
+      .content-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+      }
+
+      @media only screen and (max-width: 747px) {
+        .content-main {
+          margin-left: -66px;
+        }
+
+        .img img{
+          position: relative;
+          left: -1px;
+        };
+
+        .content-main img {
+          margin-left: 56px;
+        }
+      }
 
         </style>
         <div class="content-main">
